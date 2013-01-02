@@ -132,6 +132,7 @@ img.map {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 4px;
 }
 .block div.description
 {
