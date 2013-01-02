@@ -126,17 +126,23 @@ img.map {
 	padding: 1em;
 }
 
-.religion
+.block
 {
 	width: 80%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-.religion div.description
+.block div.description
 {
 	display: block;
 	background-color: #bfc9dd;
 	margin-top: 0px;
 	padding: 1em;
+}
+
+.index ul li
+{
+	font-size: 1.2em;
+	padding: 4px;
 }
