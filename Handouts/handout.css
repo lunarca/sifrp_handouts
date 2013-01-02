@@ -1,0 +1,142 @@
+body 
+{
+	font-family: "palatino linotype";
+}
+
+h1
+{
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: #005296;
+	font-size: 2em;
+	font-weight: bold;
+	
+}
+
+.th
+{
+	background-color: #005295;
+	color: #fffffe;
+	text-align: center;
+	width: 100%;
+	display: block;
+	font-size: 1.5em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	margin-bottom: none;
+}
+
+table {
+	width: 100%;
+}
+
+table.hc
+{
+	width: 12em;
+	background-color: #aaf;
+}
+table.thc
+{
+	width: 12em;
+}
+
+.hc
+{
+	width: 12em;
+}
+
+table
+{
+	border-collapse: collapse;
+}
+
+th, td 
+{
+	width: 6em;
+	text-align: center;
+	border: none;
+}
+
+tr {
+	background-color: #bfc9dd;
+}
+tr:nth-child(even) {
+	background-color: #e4e4e3;
+}
+
+th 
+{
+	background-color: #181919;
+	color: #fff7cd;
+	padding: 7px;
+}
+
+td {
+	padding: 5px;
+}
+
+img.map {
+	width: 60%;
+	height: auto;
+	border: 1px double black;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.region
+{
+	width: 80%;
+	background-color: #bfc9dd;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.region h3
+{
+	background-color: #005295;
+	color: white;
+	margin: 0;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: .5em;
+}
+
+.region span.lord
+{
+	background-color: black;
+	color: white;
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.region span.description
+{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	padding: 1em;
+}
+
+.religion
+{
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.religion div.description
+{
+	display: block;
+	background-color: #bfc9dd;
+	margin-top: 0px;
+	padding: 1em;
+}
